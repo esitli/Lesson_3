@@ -1,0 +1,53 @@
+p {
+	color:maroon;
+}
+.header {
+	color: skyblue;
+}
+.main{
+	color: green;
+}
+.title-1{
+	color: hotpink;
+}
+.title-2{
+	color: mediumpurple;
+}
+.title-3{
+	color: navy;
+}
+.title-4{
+	color: red;
+}
+#section1,
+#section2,
+#section3{
+	color: yellow;
+}
+
+p span{
+	color:slategrey;
+}
+h2 span{
+	color: red;
+}
+.par-1{
+	color: sandybrown;
+}
+.par-2{
+	color: teal;
+}
+.footer{
+	color: violet;
+}
+[class*="par"]{
+	color: black;
+}
+.par-1 + p{
+	color: chartreuse;
+}
+.link-1,
+.link-2,
+.link-3{
+	color: darkorange;
+}
